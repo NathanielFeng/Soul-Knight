@@ -28,7 +28,6 @@ public class Wand : Weapon
                 bullet.GetComponent<Bullet>().Instantiation(role);
             }            
         }
-
     }
     public override void LookAt(Vector3 target)
     {
